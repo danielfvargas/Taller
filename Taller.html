@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>La Santa Trinidad de los Autos</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link 
+        rel="stylesheet"
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    />  
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        .car {
+            display: flex;
+            margin-bottom: 20px;
+        }
+        .car img {
+            width: 300px;
+            height: auto;
+            margin-right: 20px;
+        }
+        .car-details {
+            flex-grow: 1;
+        }
+        .trinity-image {
+            display: block;
+            margin: 0 auto 20px;
+            width: auto;
+            height: auto;
+        }
+        .subscribe-form {
+            margin: 40px auto;
+            text-align: center;
+        }
+        .subscribe-form h2 {
+            margin-bottom: 20px;
+        }
+        .subscribe-form input[type="text"],
+        .subscribe-form input[type="email"],
+        .subscribe-form input[type="submit"] {
+            padding: 10px;
+            margin-bottom: 10px;
+            width: 300px;
+            display: block;
+            margin: 0 auto;
+        }
+        .subscribe-form input[type="submit"] {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+        .similar-autos {
+            margin-top: 40px;
+            text-align: center;
+        }
+        .similar-autos h2 {
+            margin-bottom: 20px;
+        }
+        .similar-autos ul {
+            list-style-type: disc;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding-left: 0; 
+        }
+        .similar-autos ul li {
+            width: 50%;
+            padding: 5px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>La Santa Trinidad de los Autos</h1>
+        <p class="author">Escrito por: Daniel Vargas - 202216034</p>
+    </header>
+    <img class="trinity-image" src="https://www.paddlup.com/media/sned2bn3/holy-trinity.jpg?&width=1200&height=630&saturation=0" alt="La Santa Trinidad de los Autos">
+    <div class="container">
+        <p>Los felinos de la carretera, una tríada de máquinas supremas en el mundo automovilístico, despiertan admiración y pasión en los amantes de los motores. Desde la impresionante velocidad del McLaren P1 hasta la exquisita ingeniería del Ferrari LaFerrari y la innovación revolucionaria del Porsche 918 Spyder, estos vehículos emblemáticos han cautivado a la humanidad con su elegancia, desempeño y belleza sobre ruedas. Acompáñanos en un viaje apasionante para explorar el mundo de los felinos de la carretera, donde descubriremos sus características técnicas, desempeño en pista, y la fascinación que despiertan en aquellos que los conducen.</p>
+        <div class="car">
+            <img src="https://www.fleetpoint.org/wp-content/uploads/2017/09/McLaren-P1-5th-Anniversary.png" alt="McLaren P1">
+            <div class="car-details">
+                <h2>McLaren P1</h2>
+                <p>El McLaren P1 es una obra maestra de ingeniería automotriz que combina potencia, tecnología y diseño en un paquete impresionante. Con un motor V8 biturbo de 3.8 litros y un sistema híbrido, el P1 ofrece una experiencia de conducción emocionante con un rendimiento asombroso en carretera y pista. Cada detalle de este superdeportivo ha sido meticulosamente diseñado para maximizar la aerodinámica y la eficiencia, garantizando una conducción excepcional en todo momento.</p>
+                <a href="https://cars.mclaren.com/en/legacy/mclaren-p1"> Más información aquí</a>
+            </div>
+        </div>
+        <div class="car">
+            <img src="https://www.thegpbox.com/static/2023/04/il_fullxfull.4797356420_ai7p-300x300.jpg" alt="Ferrari LaFerrari">
+            <div class="car-details">
+                <h2>Ferrari LaFerrari</h2>
+                <p>El Ferrari LaFerrari encarna la esencia del lujo y el rendimiento en la industria automotriz. Equipado con un motor V12 y un sistema híbrido, este superdeportivo italiano ofrece una combinación perfecta de potencia y elegancia. Cada curva y línea de su diseño está diseñada para inspirar admiración y respeto, mientras que su desempeño en carretera supera todas las expectativas, ofreciendo una experiencia de conducción incomparable.</p>
+                <a href="https://www.ferrari.com/es-ES/auto/laferrari"> Más información aquí</a>
+            </div>
+        </div>
+        <div class="car">
+            <img src="https://i.etsystatic.com/37394840/c/1029/1029/59/0/il/84d783/4329946662/il_300x300.4329946662_52qf.jpg" alt="Porsche 918 Spyder">
+            <div class="car-details">
+                <h2>Porsche 918 Spyder</h2>
+                <p>El Porsche 918 Spyder es la culminación de la innovación y la excelencia en la ingeniería automotriz. Con un motor V8 y dos motores eléctricos, este superdeportivo de edición limitada ofrece un rendimiento extraordinario junto con una eficiencia impresionante. Cada detalle de su diseño refleja la pasión y la dedicación de Porsche por crear un automóvil que supere todas las expectativas y marque una nueva era en la industria automotriz.</p>
+                <a href="https://www.porsche.com/stories/innovation/how-much-is-a-porsche-918-spyder"> Más información aquí</a>
+            </div>
+        </div>
+        
+        <div class="similar-autos">
+            <h2>Autos similares</h2>
+            <ul>
+                <li>Maserati MC20</li>
+                <li>BMW i8</li>
+                <li>Audi R8</li>
+                <li>Lamborghini Aventador</li>
+                <li>Nissan GT-R</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="subscribe-form">
+        <h2>Suscríbete para recibir más información</h2>
+        <form action="procesar_formulario.php" method="post">
+            <input type="text" name="nombre" placeholder="Tu nombre" required><br>
+            <input type="email" name="email" placeholder="Tu correo electrónico" required><br>
+            <input type="submit" value="Suscribirse">
+        </form>
+    </div>
+</body>
+</html>
